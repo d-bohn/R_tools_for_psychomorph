@@ -55,6 +55,6 @@ tem_to_eyeArea <- function(tem) {
     
   }
   
-  return(list(image = tem, right_eye=eyeAreaR, left_eye=eyeAreaL))
+  return(list(image = tem, right_eyeArea=eyeAreaR, left_eyeArea=eyeAreaL))
   
 }
