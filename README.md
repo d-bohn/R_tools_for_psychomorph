@@ -5,6 +5,8 @@ Finding physical measurements from a face template is simple and easy, so long a
 Presently, these measurements are supported:
 
 - `tem_to_eyeArea()` (left and right eye area)
+    - Note that this measurement is highly dependent on the size of the original image templated. If you have different
+    size images you will want to scale the values before analyzing.
 - `tem_to_browh()` (min and max brow height)
 - `tem_to_fwhr()` (facial width-to-height ratio)
 - `tem_to_eyespace()` (eye spacing/distance apart)
