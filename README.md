@@ -11,8 +11,8 @@ Presently, these measurements are supported:
 - `tem_to_fwhr(tem)` (facial width-to-height ratio)
 - `tem_to_eyespace(tem)` (eye spacing/distance apart)
 - `sclera(tem, threshold=0.0011)` (amount of sclera present above/below the iris of each eye)
-    - Returns four values (top/bottom, left/right) estimating the amount of sclera present for each eye scaled by
-    how large the distance is in pixels between the center of the pupil and the top/bottom of the eye.
+    - Returns multiple values (top/bottom/inner/outer of left/right eye) estimating the amount of sclera present 
+    for each eye scaled by how large the distance is in pixels between the center of the pupil and the top/bottom of the eye.
 
 If you would like to see more measurements added, please submit an issue, or clone this repository and create it yourself (don't forget
 to submit your additions!).
